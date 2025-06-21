@@ -1,0 +1,38 @@
+<div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav navStyle">
+                            <div class="sb-sidenav-menu-heading pt-3">Core</div>
+                                <a class="nav-link px-2 pt-1" href="{{ url_for('dashboard') }}">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                    Dashboard
+                                </a>
+                                <a class="nav-link px-2 pt-1" href="{{ url_for('department') }}">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-sitemap"></i></div>
+                                    Department
+                                </a>
+                                <a class="nav-link px-2 pt-1" href="{{ url_for('job_list') }}">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-list"></i></div>
+                                    Job List
+                                </a>
+                                <a class="nav-link px-2 pt-1" href="{{ url_for('employee') }}">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+                                    Employee
+                                </a>
+                                <a class="nav-link px-2 pt-1" href="{{ url_for('visitor_list') }}">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-clipboard-list"></i></div>
+                                    Visitor List
+                                </a>
+                                <a class="nav-link px-2 pt-1" href="{{ url_for('attendance_report') }}">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-chart-line"></i></div>
+                                    Attendance Report
+                                </a>
+                                <a class="nav-link px-2 pt-1" href="{{ url_for('logout') }}" onclick="return confirm('Are You sure you want to logout?');">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-sign-out-alt"></i></div>
+                                    Logout
+                                </a>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
